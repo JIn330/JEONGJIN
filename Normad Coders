@@ -1,0 +1,93 @@
+
+"""
+def plus(a, b):
+  print(a + b)
+"""
+"""
+def  tax_calc(money):
+  return money * 0.35
+  
+def pay_tax(tax):
+  print("thank you for paying", tax)
+  
+pay_tax(tax_calc(15000000))
+"""
+"""
+my_name = "jin"
+my_age = 29
+my_color_eyes = "brown"
+
+print(f"Hello I'm {my_name}, I have {my_age} years in the earth, and {my_color_eyes} is my eye color")
+"""
+"""
+def make_juice(fruit):
+  return f"{fruit}+🧃"
+
+def add_ice(juice):
+  return f"{juice}+🧊"
+  
+
+def add_sugar(iced_juice):
+  return f"{iced_juice}+🍭"
+
+juice = make_juice("🍎")
+cold_juice = add_ice(juice)
+perfect_juice = add_sugar(cold_juice)
+
+print(perfect_juice)
+"""
+
+"""
+a = "jin"
+
+if a == "jin":
+  print("True!")
+
+"""
+
+"""
+password_correct = True
+
+if password_correct:
+  print("Here is  your money")
+else:
+  print("Wrong Password")
+"""
+
+"""
+winner = 15
+
+if winner > 10:
+  print("winner is greater than 10")
+elif winner < 10:
+  print("Winner is less than 10")
+else:
+  print("Winner is 10")
+"""
+"""
+def get_yearly_revenue(monthly_revenue):
+  return monthly_revenue * 12
+
+def get_yearly_expenses(monthly_expenses):
+  return monthly_expenses * 12
+
+def get_tax_amount(profit):
+  if profit > 100000:
+    tax_percentage = 0.25
+  else:
+    tax_percentage = 0.15
+  return profit * tax_percentage
+
+def apply_tax_credits(tax_amount, tax_credit):
+  return tax_amount * tax_credit
+
+monthly_revenue = 5500000
+monthly_expenses = 2700000
+tax_credits = 0.01
+
+profit = get_yearly_revenue(monthly_revenue) - get_yearly_expenses(monthly_expenses)
+tax_amount = get_tax_amount(profit)
+final_tax_amount = tax_amount - apply_tax_credits(tax_amount, tax_credits)
+
+print(f"Your tax bill is: ${final_tax_amount}")
+"""
